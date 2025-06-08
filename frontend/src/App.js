@@ -78,6 +78,7 @@ function App() {
   return (
     <div>
       <h1>TaskManager on Web</h1>
+      <title></title>
       <div id="chart" className='cpuusagechart'>
         <ReactApexChart options={options} series={[{ name: 'CPU Usage', data }]} type="line" height={350} />
       </div>
