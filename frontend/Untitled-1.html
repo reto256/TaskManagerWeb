@@ -1,0 +1,16 @@
+<div>
+              <h2>Cpuusage: {cpuData.cpuPercentage}%</h2>
+              <div className='cpuusagechart'>
+                <h3>CPU Usage Chart</h3>
+                <div className='chart'>
+                  <ResponsiveContainer width="100%" height="100%">
+                    <LineChart data={cpuHistory}>
+                      <CartesianGrid strokeDasharray="3 3" stroke="#ccc" />
+                      <XAxis dataKey="time" tick={{ fontSize: 12 }} />
+                      <YAxis domain={[0, 100]} tick={{ fontSize: 12 }} />
+                      <Tooltip />
+                      <Line isAnimationActive={false} dataKey="usage" stroke="#ff4500" strokeWidth={2} dot={{ r: 0 }} />
+                    </LineChart>
+                  </ResponsiveContainer>
+                </div>
+              </div>

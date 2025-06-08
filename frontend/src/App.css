@@ -1,0 +1,104 @@
+@font-face {
+  font-family: jura;
+  src: url("Jura-VariableFont_wght.ttf") format('truetype')
+}
+
+
+body {
+  background-color: cadetblue;
+}
+
+h1 {
+  box-shadow: black 5px 5px;
+  font-family: jura;
+  font-size: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+h2 {
+  font-family: jura;
+  font-size: 40px;
+  font-weight: lighter;
+  color: #ffffff;
+  background-color: #366;
+  padding-right: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-right: 1100px;
+}
+
+h3 {
+  font-family: jura;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.cpuusagechart {
+  width: 1450px;
+  height: 380px;
+  background-color: #336666;
+  margin-bottom: 30px;
+  margin-left: 25px;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-bottom: 110px;
+  border-radius: 18px;
+}
+
+.charttitle {
+  font-family: jura;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.chart {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-right: 10px;
+  width: 1365px;
+  height: 528px;
+}
+
+.cpu {
+  color: #ffffff;
+  font-family: jura;
+  font-size: 40px;
+  font-weight: normal;
+  display: inline-block;
+  margin-left: 50px;
+  background-color: #336666;
+  border-radius: 15px;
+  padding: 18px;
+  padding-right: 80px;
+}
+
+.mem {
+  color: #ffffff;
+  font-family: jura;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.usemem {
+  margin-left: 20px;
+}
+
+.freemem {
+  margin-left: 16px;
+}
+
+.totalmem {
+  margin-left: 13px;
+}
